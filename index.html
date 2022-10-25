@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 14</title>
+	</head>
+	<body>
+		<div class="wrapper">
+		<header class="header">
+			<div class="header__fireplace fireplace">
+				<div class="fireplace__wood">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="fireplace__fire">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			
+			<div class="main__container example">
+				<div class="main__title title">Flex</div>
+				<div class="main__subtitle subtitle">flex-dirrection / row / column / justify-content / align-items / flex-grow / flex-shrink / flex-wrap </div>
+				<div class="example__menu">
+					<a href="#example1">Вкладка 1</a>
+					<a href="#example2">Вкладка 2</a>
+					<a href="#example3">Вкладка 3</a>
+					<a href="#example4">Вкладка 4</a>
+					<a href="#example5">Вкладка 5</a>
+				</div>
+				<div class="example__box row" id="example1">
+					<div class="row__properties properties">
+						<div class="properties__item">flex-shrink: 0;</div>
+						<div class="properties__item">flex-wrap: wrap;</div>
+						<div class="properties__item">flex-grow: 1;</div>
+						<div class="properties__item">justify-content: center;</div>
+						<div class="properties__item">align-items: stretch;</div>
+						<div class="properties__item">gap: 5px;</div>
+						<div class="properties__item">flex-basis: 120px;</div>
+						<div class="properties__item">flex-grow: 0;</div>
+					</div>
+					<div class="row__visualization visualization">
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, nihil?</div>
+						<div>Lorem ipsum dolor sit.</div>
+						<div>Lorem, ipsum dolor.</div>
+						<div>Lorem ipsum dolor sit amet.</div>
+						<div>gap: 10px;</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+					</div>
+				</div>
+
+				<div class="example__box row" id="example2">
+					<div class="row__properties properties">
+						<div class="properties__item">flex-shrink: 0;</div>
+						<div class="properties__item">flex-wrap: wrap;</div>
+						<div class="properties__item">flex-grow: 1;</div>
+						<div class="properties__item">justify-content: center;</div>
+						<div class="properties__item">align-items: stretch;</div>
+						<div class="properties__item">gap: 5px;</div>
+						<div class="properties__item">flex-basis: 120px;</div>
+						<div class="properties__item">flex-grow: 0;</div>
+					</div>
+					<div class="row__visualization visualization">
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, nihil?</div>
+						<div>Lorem ipsum dolor sit.</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+						<div>Lorem, ipsum.</div>
+					</div>
+				</div>
+
+
+				<div class="example__box row" id="example3">
+					<div class="row__properties properties">
+						<div class="properties__item">flex-direction: column;</div>
+						<div class="properties__item">flex-shrink: 1;</div>
+						<div class="properties__item">flex-grow: 1;</div>
+						<div class="properties__item">justify-content: center;</div>
+						<div class="properties__item">align-items: center;</div>
+						<div class="properties__item">gap: 5px;</div>
+						<div class="properties__item">flex-basis: 120px;</div>
+						<div class="properties__item">flex-grow: 0;</div>
+						<div class="properties__item">align-self: flex-end;</div>
+						<div class="properties__item">	align-self: flex-start;</div>
+					</div>
+					<div class="row__visualization visualization">
+						<div>Lorem, ipsum.</div>
+						<div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+						<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat rem labore laborum doloremque repudiandae quo vitae molestiae.</div>
+						<div>Lorem, ipsum.</div>
+					</div>
+				</div>
+
+				<div class="example__box row" id="example4">
+					<div class="row__properties properties">
+						
+						<div class="properties__item">justify-content: center;
+						</div>
+						<div class="properties__item">align-self: stretch;</div>
+						<div class="properties__item">flex-basis: 20%;</div>
+						<div class="properties__item">flex-grow: 0;</div>
+						<div class="properties__item">align-self: flex-start;</div>
+						<div class="properties__item">align-self: flex-start;</div>
+					
+					</div>
+					<div class="row__visualization visualization">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				
+				<div class="example__box row" id="example5">
+					<div class="row__properties properties">
+						
+						<div class="properties__item">justify-content: center;
+						</div>
+						<div class="properties__item">align-self: stretch;</div>
+						<div class="properties__item">flex-basis: 20%;</div>
+						<div class="properties__item">flex-grow: 0;</div>
+						<div class="properties__item">align-self: flex-start;</div>
+						<div class="properties__item">align-self: flex-start;</div>
+					
+					</div>
+					<div class="row__visualization visualization">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+
+				<div class="main__title title">Fishka</div>
+				<div class="main__subtitle subtitle">
+					margin:0px -30px; / padding:0px 15px;
+				</div>
+				<div class="example-no-animation__box cards">
+
+					<div class="cards__box">
+						<div class="card__body">
+							<div class="card__img"></div>
+							<div class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore sit hic iusto aut totam.</div>
+							<div class="card__btn btn">Button</div>
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							<div class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore sit hic iusto aut totam.</div>
+							<div class="card__btn btn">Button</div>
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							<div class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore sit hic iusto aut totam.</div>
+							<div class="card__btn btn">Button</div>
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							
+							<div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, ad quo? Dolores quos nostrum fugit. Molestiae dolore nisi inventore aliquam.</div>
+							<div class="card__btn btn">Button</div>
+							
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							<div class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, soluta, facere et rem rerum repudiandae, dignissimos odit ab unde impedit voluptatum saepe deleniti consectetur iure eius repellendus fugiat eaque assumenda cum aut quo harum? Nisi officiis neque corrupti commodi ipsam. ipsum dolor, sit amet consectetur adipisicing elit. Labore sit hic iusto aut totam.</div>
+							<div class="card__btn btn">Button</div>
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							
+							<div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, ad quo? Dolores quos nostrum fugit. Molestiae dolore nisi inventore aliquam.</div>
+							<div class="card__btn btn">Button</div>
+							
+						</div>
+						<div class="card__body">
+							<div class="card__img"></div>
+							<div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, ad quo? Dolores quos nostrum fugit. Molestiae dolore nisi inventore aliquam.</div>
+							<div class="card__btn btn">Button</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</main>
+		<footer class="footer__box footer">
+			<div class="footer__container">
+			<div class="footer__title title">Footer</div>
+			<div class="footer__subtitle subtitle">flex-grow / flex-basis / flex-wrap</div>
+			<div class="footer__list list">
+				<div class="list__item">Lorem, ipsum dolor.</div>
+				<div class="list__item">Lorem ipsum dolor sit amet.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem, ipsum.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+			</div>
+			<div class="footer__list list">
+				<div class="list__item">Lorem, ipsum dolor.</div>
+				<div class="list__item">Lorem ipsum dolor sit amet.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem, ipsum.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+			</div>
+			<div class="footer__list list">
+				<div class="list__item">Lorem, ipsum dolor.</div>
+				<div class="list__item">Lorem ipsum dolor sit amet.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem, ipsum.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem, ipsum.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+				<div class="list__item">Lorem, ipsum.</div>
+				<div class="list__item">Lorem ipsum dolor sit.</div>
+			</div>
+			<div class="footer__clock clock">
+				<div class="clock__body">
+					<div class="clock__arrow">
+					</div>
+					<div class="clock__arrow">
+					</div>
+					<div class="clock__arrow">
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer__link">
+				<a href="./page2.html">
+				<div class="link__item"></div>
+			</a>
+			</div>
+		
+		</div>
+		</footer>
+	</div>
+	</body>
+</html>

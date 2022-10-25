@@ -1,0 +1,241 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-color: rgb(36, 82, 55);
+	
+}
+@keyframes logo{
+	0%{
+		box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.274);
+	}
+	50%{
+		box-shadow: 0px 0px 80px rgba(0, 247, 255, 0.507);
+	}
+	100%{
+		box-shadow: 0px 0px 10px rgba(43, 230, 255, 0.342);
+		
+
+	}
+}
+@keyframes hello{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		top: 0px;
+		opacity: 1;
+	}
+}
+@keyframes info{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity:.1;
+		/* border-color: rgb(255, 255, 79); */
+
+	}
+	100%{
+		/* border-color: rgb(255, 209, 156); */
+		opacity:1;
+		top:0px;
+	}
+}
+@keyframes info-box{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+		
+	}
+	100%{
+		top: 40px;
+		opacity: 1;
+		margin-bottom: 40px;
+	}
+}
+[class*="__container"]{
+	max-width: 1024px;
+	margin: 0px auto;
+	/* border: 1px solid yellow; */
+}
+
+.main{
+	overflow: hidden;
+}
+.main__container{
+	animation-name: hello;
+	animation-timing-function: linear;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	top: 100px;
+	opacity: 0;
+	height: auto;
+	padding: 0px;
+	position: relative;
+}
+.creative-society{
+	padding-top: 60px;
+	perspective: 1024px;
+}
+.creative-society__logo{
+	margin: 0px auto;
+	margin-bottom: 20px;
+	animation-name: logo;
+	animation-duration: 12s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+	animation-direction: normal;
+	animation-play-state: running;
+	background-color: white;
+	background-image: url(../img/home/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	
+}
+.creative-society__content{}
+.creative-society__title{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+}
+.creative-society__subtitle{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+	color:white;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+.creative-society__info{
+	position: relative;
+	top:100px;
+	opacity: 0;
+	animation-name: info;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-play-state: running;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	animation-duration: 1s;
+	animation-delay: 4s;
+	padding: 20px 0px;
+	width: 80%;
+	margin: 0px auto;
+
+}
+.creative-society__info a{
+	display: block;
+	border: 2px solid white;
+	padding: 20px;
+	/* background: rgb(52, 114, 185); */
+
+}
+.info__title{
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 20px;
+}
+.info__text{
+}
+.text{
+	line-height: 22px;
+	font-size: 18px;
+	color: white;
+}
+
+.info__box{
+	animation-name: info-box;
+	animation-timing-function: linear;
+	animation-duration: 1s;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	border-radius: 6px;
+	box-shadow: 1px 1px 3px rgb(22, 16, 97);
+	position: relative;
+	top: 200px;
+	background: white;
+	height: auto;
+	padding: 20px 20px;
+}
+.box__title{
+	font-size: 32px;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 30px;
+}
+.box__list{
+
+}
+
+.list__item{
+	position: relative;
+	padding-left: 30px;
+	color: #444;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 22px;
+}
+.list__item:last-child{
+	margin-bottom: 0px;
+}
+.list__item::before{
+	content:'';
+	position: absolute;
+	left: 3px;
+	top:5px;
+	transform: rotate(45deg);
+	width: 12px;
+	height: 12px;
+	background-color: rgb(219, 33, 33);
+}
+.btn{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgb(80, 80, 80);
+}
+.box__btn{
+	animation-name: link;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-direction: alternate-reverse;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	color: white;
+	margin-left: 10px;
+	background:rgb(197, 27, 27);
+}
+.box__btn:hover{
+	background: rgb(221, 66, 66);
+}
+
+
+.creative-society__foundations{}
+.findation__list{}
+
+
